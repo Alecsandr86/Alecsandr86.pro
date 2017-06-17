@@ -1,0 +1,106 @@
+@import "var";
+@import "rem";
+
+//////////////////////////////////////////////////////
+
+
+html{
+  font-size:$em-base;
+  font-family : $default-font;
+  color : $text-color;
+}
+
+
+
+
+body{
+
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b{
+
+}
+
+
+
+
+h1{
+  font-size: rem(36);
+}
+h2{
+  font-size: rem(30);
+}
+h3{
+  font-size: rem(24);
+}
+h4{
+  font-size: rem(18);
+}
+h5{
+  font-size: rem(14);
+}
+h6{
+  font-size: rem(12);
+}
+
+strong{
+
+}
+b{
+
+}
+
+p{
+  padding :20px 0;
+  line-height :rem(24);
+}
+
+i{
+  display :inline-block;
+}
+a{
+  color : $text-color;
+}
+
+
+
+
+.left{
+  float: left;
+}
+
+
+
+.right{
+  float: right;
+}
+
+
+
+.cr  {float: none; clear: both; margin: 0; padding: 0; font-size: 0.1px;}
+
+
+
+.clarfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+

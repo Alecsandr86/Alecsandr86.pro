@@ -1,0 +1,9 @@
+.section-five{
+  height :100%;
+  position : relative;
+  &__box-description{
+    text-align : center;
+    max-width : 660px;
+    margin :0 auto;
+  }
+}

@@ -1,0 +1,28 @@
+.section-one{
+  height :100%;
+  &__content{
+    height :100%;
+  }
+  &__button-down{
+    position : absolute;
+    top : 85px;
+    left : 50%;
+    margin : 0 0 0 -31px;
+    z-index :10;
+  }
+  &__box-img{
+    position : absolute;
+    bottom : 0;
+    left : 0;
+    right :0;
+    font-size :0;
+    text-align : center;
+  }
+}
+
+
+.fp-viewing-section-1 {
+  .footer{
+    opacity :0;
+  }
+}

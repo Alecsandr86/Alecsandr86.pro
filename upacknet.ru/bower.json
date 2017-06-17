@@ -1,0 +1,24 @@
+{
+  "name": "front_end",
+  "description": "desc",
+  "main": "gulpfile.js",
+  "authors": [
+    "Alecsandr <alecsandrcherneckiy@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "css-reset-and-normalize-sass": "^0.1.2",
+    "fullpage.js": "^2.9.4",
+    "animate.css": "^3.5.2"
+  }
+}

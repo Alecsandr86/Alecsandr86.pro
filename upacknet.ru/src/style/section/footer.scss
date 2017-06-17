@@ -1,0 +1,27 @@
+.footer{
+  height: 95px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition : all .3s ease;
+  -moz-transition    : all .3s ease;
+  -ms-transition     : all .3s ease;
+  -o-transition      : all .3s ease;
+  transition         : all .3s ease;
+  &__left{
+    float : left;
+    width : 50%;
+  }
+  &__right{
+    float : right;
+    width : 50%;
+    text-align : right;
+  }
+  &__nav-menu{
+    text-align : center;
+    padding : 0 35px 0 0;
+  }
+}

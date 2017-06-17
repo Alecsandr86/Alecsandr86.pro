@@ -1,0 +1,61 @@
+.header{
+  height : 105px;
+  position : fixed;
+  z-index :999;
+  width :100%;
+  padding :60px 0 0;
+  &__logo{
+    float : left;
+    padding-top : 5px;
+  }
+  &__tagline{
+    float : left;
+    width : 210px;
+    padding-top : 5px;
+    padding-left : 50px;
+    margin-left : 40px;
+  }
+  &__registration{
+    float : right;
+  }
+}
+
+
+
+.logo{
+  &__link{
+    display : inline-block;
+    text-decoration : none;
+  }
+  &__logo{
+
+  }
+}
+
+
+
+.tagline{
+  font-size : rem(14);
+  line-height :rem(18);
+  opacity :.6;
+  &_line{
+    position : relative;
+    &:before{
+      content : '';
+      width : 22px;
+      height : 1px;
+      background-color : #fff;
+      position : absolute;
+      top : 14px;
+      left : 0;
+    }
+  }
+}
+
+
+
+.registration{
+  &__btn{
+    margin : 0 10px;
+  }
+}

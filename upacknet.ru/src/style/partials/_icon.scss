@@ -1,0 +1,20 @@
+@import "sprite";
+@include sprites($spritesheet-sprites);
+
+//D:\work\frontend\src\style\partials
+
+//    hover спрайта
+
+
+//.icon {
+//  @include sprite($icon);
+//  &:hover {
+//    @include sprite($icon-hover);
+//  }
+//}
+//.nav-mobail{
+//  @include sprite($nav-mobail);
+//  &:hover {
+//    @include sprite($nav-mobail-hover);
+//  }
+//}

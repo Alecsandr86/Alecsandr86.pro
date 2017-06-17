@@ -1,0 +1,45 @@
+@import "font-face";
+
+//    НАБОРЫ БАЗОВЫХ ШРИФТОВ
+
+$georgia: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+
+/// Helvetica font stack.
+///
+/// @type List
+
+$helvetica: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+
+/// Lucida Grande font stack.
+///
+/// @type List
+
+$lucida-grande: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+
+/// Monospace font stack.
+///
+/// @type List
+
+$monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+
+/// Verdana font stack.
+///
+/// @type List
+
+$verdana: "Verdana", "Geneva", sans-serif;
+
+//////   КАСТУМНЫЙ ШРИФТ //////
+
+
+
+@include font-face("panton-regular", "../fonts/panton-regular","panton-regular");
+@include font-face("panton-bold", "../fonts/panton-bold","panton-bold");
+@include font-face("panton-light", "../fonts/panton-light","panton-light");
+
+
+$default-font: 'Roboto', "Arial", "Helvetica Neue", "Helvetica",  sans-serif;
+$panton-regular: "panton-regular";
+$panton-bold: "panton-bold";
+$panton-light: "panton-light";
+$lato: 'Lato', sans-serif;
+$roboto: 'Roboto', sans-serif;
